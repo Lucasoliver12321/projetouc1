@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <header class="header">
+    <div>
+      <h1>✈️ Explorar Mundo</h1>
+    </div>
+
+   <nav class="nav">
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Início</a></li>
+        <li><a href="Contato.html" class="nav-link">Contato</a></li>
+        <li><a href="converter.html" class="nav-link">Converta Conosco</a></li>
+        <li><a href="Ajuda.html" class="nav-link">Ajuda</a></li>
+        <li><a href="Sobre.html" class="nav-link">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+     <h2 id="text">Conversor De Moedas</h2>
+  <section class="conversor-section">
+    <div class="container2"></div>
+    <div id="form">
+      <label for="valor"> Valor em reais (R$)</label>
+      <input type="number" id="valor" placeholder="Digite um valor!">
+    </div>
+
+    <div>
+        <label for="moeda"> Converter para: </label>
+        <select id="moeda">
+            <option value="USD">Dolar (USD)</option>
+            <option value="EUR">EURO (EUR)</option>
+            <option value="GBP">Libra (GBP)</option>
+        </select>
+        
+        <button onclick="convert()">Convert</button>
+        
+        <div id="resultado"></div>
+      
+      </div>
+
+</section>
+<section class="pix-convert">
+
+  <div class="pix2">
+    <label for="valor1">Valor Para Converter</label>
+    <input type="number" id="valor1" placeholder="Digite um valor!">
+  </div>
+
+  <div class="pix">
+    <label for="tipoPix">Tipo de Chave Pix</label>
+    <select id="tipoPix">
+      <option value="CPF">CPF</option>
+      <option value="EMAIL">EMAIL</option>
+      <option value="CNPJ">CNPJ</option>
+
+    </select>
+
+  <div class="CHAVE">
+    <input type="pix3" placeholder ="Digite sua chave pix" id class ="chavepix">;
+    <a href="qrcode.html">
+  <button>Gerar QRcode</button>
+
+  </div>
+
+
+
+</section>
+
+
+
+</div>
+
+  </section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
