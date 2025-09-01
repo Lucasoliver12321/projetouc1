@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facilitô – Seu Marido de Aluguel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <h1>Facilitô <span class="emoji">🔧</span></h1>
+    </div>
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="Agendamento.html">Agendamento</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="#">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div class="container2">
+      <h1 class="container_h1">Cadastro de Fornecedores</h1>
+      <div class="form-card">
+        <form id="formFornecedor">
+          <div class="campo">
+            <label for="descricao">Descrição</label>
+            <textarea id="descricao" name="descricao" required></textarea>
+          </div>
+
+          <div class="campo">
+            <label for="categoria">Categoria</label>
+            <input type="text" id="categoria" name="categoria" required />
+          </div>
+
+          <div class="campo">
+            <label for="contato">Contato</label>
+            <input type="text" id="contato" name="contato" required />
+          </div>
+
+          <div class="campo">
+            <label for="nome_anunciante">Nome do Anunciante</label>
+            <input type="text" id="nome_anunciante" name="nome_anunciante" required />
+          </div>
+
+          <div class="campo">
+            <label for="cpf_cnpj">CPF/CNPJ</label>
+            <input type="text" id="cpf_cnpj" name="cpf_cnpj" required />
+          </div>
+
+          <div class="grupo-horario">
+            <div class="campo">
+              <label for="hora_inicio">Hora Início</label>
+              <input type="time" id="hora_inicio" name="hora_inicio" required />
+            </div>
+
+            <div class="campo">
+              <label for="hora_fim">Hora Fim</label>
+              <input type="time" id="hora_fim" name="hora_fim" required />
+            </div>
+          </div>
+
+          <div class="campo">
+            <label for="data_criacao">Data de Criação</label>
+            <input type="datetime-local" id="data_criacao" name="data_criacao" required />
+          </div>
+
+          <div class="campo">
+            <label for="ativo">
+              <input type="checkbox" id="ativo" name="ativo" checked />
+              Ativo
+            </label>
+          </div>
+
+          <div class="acoes">
+            <button type="submit">Cadastrar</button>
+            <button type="reset" class="btn-secondary">Limpar</button>
+          </div>
+        </form>
+        <div id="mensagem" class="mensagem"></div>
+      </div>
+    </div>
+</body>
+
+ <footer class="footer">
+    <p>&copy; 2025 Facilitô. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+
+
+
